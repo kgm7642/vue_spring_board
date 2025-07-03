@@ -22,7 +22,7 @@ class JwtProcessorTest {
 
     @Test
     void generateToken() {
-        String username = "user0";
+        String username = "user1";
         String token = jwtProcessor.generateToken(username);
         log.info(token);
         assertNotNull(token);
